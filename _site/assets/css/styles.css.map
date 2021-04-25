@@ -5,18 +5,20 @@
 		"styles.sass",
 		"_sass/main.sass",
 		"_sass/0-base/dir-base.sass",
-		"_sass/0-base/style.sass",
+		"_sass/0-base/base-style.sass",
 		"_sass/1-modules/dir-modules.sass",
-		"_sass/2-layouts/dir-layouts.sass"
+		"_sass/2-layouts/dir-layouts.sass",
+		"_sass/2-layouts/index.sass"
 	],
 	"sourcesContent": [
 		"@import \"main\";\n",
 		"@import \"0-base/dir-base\";\n@import \"1-modules/dir-modules\";\n@import \"2-layouts/dir-layouts\";\n\n",
-		"@import \"style\";\n",
-		"body {\n    background-color: pink; }\n",
+		"@import \"base-style\";\n",
+		"\n@font-face {\n    font-family: \"Blair ITC\";\n    src: url(\"../fonts/LT_70056.ttf\"); }\n\nbody {\n    background-color: #ffffff;\n    background-image: -webkit-linear-gradient(to right, #F1FF94, #6FA2CB);\n    background-image: -webkit-linear-gradient(to right, #F1FF94, #6FA2CB);\n    background-image: linear-gradient(to right, #F1FF94, #6FA2CB); }\n\nul {\n    list-style-type: none; }\n\na {\n    color: black;\n    text-decoration: none; }\n",
 		"",
-		""
+		"@import 'index';\n",
+		".main-container {\n    font-family: 'Blair ITC';\n    display: grid;\n    grid-template-columns: 1fr 2fr;\n    margin-top: 1vw; }\n\n.logo {\n    font-size: 3vw;\n    letter-spacing: 1vw; }\n\n.subtitle {\n    width: 45vw;\n    display: flex;\n    justify-content: space-between;\n    align-items: center; }\n\n.text-container {\n    display: grid;\n    grid-template-columns: 1fr 2fr;\n    margin-top: 3vw; }\n\n.menu ul {\n    font-size: 1.25vw;\n    line-height: 3vw;\n    padding-left: 1vw;\n    letter-spacing: 0.25vw;\n    margin: 0; }\n\n.content {\n    width: 45vw;\n    font-size: 2vw;\n    line-height: 2.5vw;\n    letter-spacing: 0.05vw; }\n\n.content p {\n    margin: 0; }\n\nli a:hover {\n    font-style: italic; }\n"
 	],
 	"names": [],
-	"mappings": "AGAA,AAAA,IAAI,CAAC,EACD,gBAAgB,EAAE,IAAI,GAAG"
+	"mappings": "AGCA,UAAU,GACN,WAAW,EAAE,WAAW,EACxB,GAAG,EAAE,4BAA4B;;AAErC,AAAA,IAAI,CAAC,EACD,gBAAgB,EAAE,OAAO,EACzB,gBAAgB,EAAE,mDAAmD,EACrE,gBAAgB,EAAE,mDAAmD,EACrE,gBAAgB,EAAE,2CAA2C,GAAG;;AAEpE,AAAA,EAAE,CAAC,EACC,eAAe,EAAE,IAAI,GAAG;;AAE5B,AAAA,CAAC,CAAC,EACE,KAAK,EAAE,KAAK,EACZ,eAAe,EAAE,IAAI,GAAG;;AGhB5B,AAAA,eAAe,CAAC,EACZ,WAAW,EAAE,WAAW,EACxB,OAAO,EAAE,IAAI,EACb,qBAAqB,EAAE,OAAO,EAC9B,UAAU,EAAE,GAAG,GAAG;;AAEtB,AAAA,KAAK,CAAC,EACF,SAAS,EAAE,GAAG,EACd,cAAc,EAAE,GAAG,GAAG;;AAE1B,AAAA,SAAS,CAAC,EACN,KAAK,EAAE,IAAI,EACX,OAAO,EAAE,IAAI,EACb,eAAe,EAAE,aAAa,EAC9B,WAAW,EAAE,MAAM,GAAG;;AAE1B,AAAA,eAAe,CAAC,EACZ,OAAO,EAAE,IAAI,EACb,qBAAqB,EAAE,OAAO,EAC9B,UAAU,EAAE,GAAG,GAAG;;AAEtB,AAAA,KAAK,CAAC,EAAE,CAAC,EACL,SAAS,EAAE,MAAM,EACjB,WAAW,EAAE,GAAG,EAChB,YAAY,EAAE,GAAG,EACjB,cAAc,EAAE,MAAM,EACtB,MAAM,EAAE,CAAC,GAAG;;AAEhB,AAAA,QAAQ,CAAC,EACL,KAAK,EAAE,IAAI,EACX,SAAS,EAAE,GAAG,EACd,WAAW,EAAE,KAAK,EAClB,cAAc,EAAE,MAAM,GAAG;;AAE7B,AAAA,QAAQ,CAAC,CAAC,CAAC,EACP,MAAM,EAAE,CAAC,GAAG;;AAEhB,AAAA,EAAE,CAAC,CAAC,CAAC,KAAK,CAAC,EACP,UAAU,EAAE,MAAM,GAAG"
 }

@@ -1,26 +1,18 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>(A)MAR</title>
-<link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    </head>
-    <body>
-        <div class="main-container">
+---
+layout: default
+---
+<div class="main-container">
     <div class="logo">(A)MAR</div>
     <div class="subtitle"><span>AÇORES</span><span>PELA</span><span>DIVERSIDADE</span></div>
 </div>
 <div class="text-container">
     <div class="menu">
         <ul>
-            <li><a href="/quem-somos">QUEM SOMOS</a></li>
-            <li><a href="/agenda">AGENDA</a> </li>
-            <li><a href="/recursos">RECURSOS</a></li>
-            <li><a href="/voluntariado">VOLUNTARIADO</a></li>
-            <li><a href="/contactos">CONTACTOS</a></li>
+            <li><a href="{{ site.baseurl }}/quem-somos">QUEM SOMOS</a></li>
+            <li><a href="{{ site.baseurl }}/agenda">AGENDA</a></li>
+            <li><a href="{{ site.baseurl }}/recursos">RECURSOS</a></li>
+            <li><i>VOLUNTARIADO</i></li>
+            <li><a href="{{ site.baseurl }}/contactos">CONTACTOS</a></li>
         </ul>
     </div>
     <div class="content">
@@ -90,5 +82,3 @@
 
     });
 </script>
-    </body>
-</html>
