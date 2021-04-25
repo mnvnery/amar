@@ -4,9 +4,8 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: jekyll-pages
-  label: Pages
-  create: all
+- type: heading
+  label: Páginas
 - type: document
   path: quemsomos.html
   label: Quem Somos
