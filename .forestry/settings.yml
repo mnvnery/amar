@@ -10,7 +10,7 @@ sections:
 - type: heading
   label: Páginas
 - type: document
-  path: quemsomos.html
+  path: quem-somos.html
   label: Quem Somos
 - type: document
   path: agenda.html
