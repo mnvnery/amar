@@ -12,3 +12,11 @@ $('body').css({
     'background-image': randomPalette,
 });
 });
+
+$(".menu-btn").click(function() {
+    // Toggle class "is-active"
+    $(".menu").toggle();
+    $(".close").toggle();
+    $(".more").toggle();
+    $(".content").toggle();
+});

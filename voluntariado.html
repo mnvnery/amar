@@ -7,11 +7,18 @@ corpo: "<p></p>"
     <div class="logo"><a href="{{ site.baseurl }}/index">(A)MAR</a></div>
     <div class="subtitle"><span>AÇORES</span><span>PELA</span><span>DIVERSIDADE</span></div>
 </div>
+<div class="main-mobile">
+    <div class="logo-img"><img src="{{ site.baseurl }}/assets/img/amar.svg" alt="(A)MAR"></div>
+    <div class="menu-btn">
+        <svg class="more" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 3c-.825 0-1.5.675-1.5 1.5S11.175 6 12 6s1.5-.675 1.5-1.5S12.825 3 12 3zm0 15c-.825 0-1.5.675-1.5 1.5S11.175 21 12 21s1.5-.675 1.5-1.5S12.825 18 12 18zm0-7.5c-.825 0-1.5.675-1.5 1.5s.675 1.5 1.5 1.5 1.5-.675 1.5-1.5-.675-1.5-1.5-1.5z"/></svg>
+        <span class="close">x</span>
+    </div>
+</div>
 <div class="text-container">
     <div class="menu">
         <ul>
             <li><a href="{{ site.baseurl }}/quem-somos">QUEM SOMOS</a></li>
-            <li><a href="{{ site.baseurl }}/agenda">AGENDA</a></li>
+            <li><a href="{{ site.baseurl }}/agenda">AGENDA</a> </li>
             <li><a href="{{ site.baseurl }}/recursos">RECURSOS</a></li>
             <li><i>VOLUNTARIADO</i></li>
             <li><a href="{{ site.baseurl }}/contactos">CONTACTOS</a></li>
@@ -19,12 +26,15 @@ corpo: "<p></p>"
     </div>
     <div class="content">
         {{ page.corpo }}
+        <br style="margin-bottom: 20vh;">
     </div>
 </div>
+
+
 <script>
     var colours = [
     ['#00B985', '#FF8BA0'],
-    ['#E6949A', '#A0CC9F']
+    ['#F1FF94', '#6FA2CB']
     ];
 
     function hex2rgb(hex) {
