@@ -7,17 +7,25 @@ sections:
 - type: heading
   label: Páginas
 - type: document
+  path: index.html
+  label: Sobre
+  match: "**/*"
+- type: document
   path: quem-somos.html
   label: Quem Somos
 - type: document
-  path: agenda.html
-  label: Agenda
+  path: servicos.html
+  label: Serviços
 - type: document
-  path: recursos.html
-  label: Recursos
+  path: atividades.html
+  label: Atividades
 - type: document
-  path: voluntariado.html
-  label: Voluntariado
+  path: rede.html
+  label: Rede
+- type: document
+  path: comunicacao.html
+  label: Comunicação Social
+  match: "**/*"
 - type: document
   path: contactos.html
   label: Contactos

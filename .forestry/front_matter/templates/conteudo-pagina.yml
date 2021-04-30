@@ -12,8 +12,5 @@ fields:
       format: html-blocks
   label: Corpo
 pages:
-- agenda.html
 - contactos.html
 - quem-somos.html
-- recursos.html
-- voluntariado.html
