@@ -12,6 +12,7 @@ fields:
       format: html-blocks
   label: Corpo
 pages:
+- atividades.html
 - contactos.html
 - index.html
 - quem-somos.html
