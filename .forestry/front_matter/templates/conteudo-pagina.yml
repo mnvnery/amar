@@ -13,6 +13,7 @@ fields:
   label: Corpo
 pages:
 - atividades.html
+- comunicacao.html
 - contactos.html
 - index.html
 - quem-somos.html
