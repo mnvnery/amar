@@ -9,7 +9,6 @@ sections:
 - type: document
   path: index.html
   label: Sobre
-  match: "**/*"
 - type: document
   path: quem-somos.html
   label: Quem Somos
@@ -25,7 +24,6 @@ sections:
 - type: document
   path: comunicacao.html
   label: Comunicação Social
-  match: "**/*"
 - type: document
   path: contactos.html
   label: Contactos
