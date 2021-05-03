@@ -40,6 +40,10 @@ li a:hover { font-style: italic; }
 
 .content a:hover { font-style: italic; }
 
+.nome-bio { font-family: 'Blair ITC Bold'; text-transform: uppercase; }
+
+.biografias p { display: inline; }
+
 @media only screen and (max-width: 835px) { .main-container { display: none; } .main-mobile { display: block; display: flex; justify-content: space-between; } .logo, .subtitle { display: none; } .logo-img { display: block; margin-top: 2vh; margin-left: 4vw; width: 45vw; } .text-container { display: block; } .menu { display: none; margin-left: 4vw; margin-top: 2vh; } .menu ul { font-size: 4.5vw; line-height: 15vw; } .content { margin: 5vh 2vh; font-size: 5vw; width: 85vw; line-height: 7vw; height: 68vh; } .close { display: none; font-family: 'Blair ITC'; font-size: 5vw; padding: 2vw; } }
 
 /*# sourceMappingURL=styles.css.map */
