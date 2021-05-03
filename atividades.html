@@ -42,10 +42,10 @@ atividades:
         </ul>
     </div>
     <div class="content">
-        {% for atividade in atividades %}
-            <p>{{ atividade.data }}</p>
-            {% for evento in eventos %}
-                <p>{{ evento.descricao_evento }}</p>
+        {% for atividade in page.atividades %}
+            <p class="nome-bio">{{ atividade.data }}</p>
+            {% for evento in atividade.eventos %}
+            <p class="eventos">→ {{ evento.descricao_evento }}</p>
             {% endfor %}
         {% endfor %}
     </div>
