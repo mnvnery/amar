@@ -1,4 +1,34 @@
 ---
 label: Atividades
 hide_body: true
-fields: []
+fields:
+- name: atividades
+  type: field_group_list
+  fields:
+  - name: data
+    type: text
+    config:
+      required: false
+    label: Data
+  - name: eventos
+    type: field_group_list
+    fields:
+    - name: descricao_evento
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html-blocks
+      label: Descrição Evento
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Evento(s)
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Atividades
