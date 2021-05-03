@@ -56,3 +56,5 @@ fields:
     max: 
     labelField: 
   label: Regional
+pages:
+- rede.html
