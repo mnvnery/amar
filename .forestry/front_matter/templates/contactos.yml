@@ -26,3 +26,5 @@ fields:
     schema:
       format: markdown
   label: Redes Sociais
+pages:
+- contactos.html
