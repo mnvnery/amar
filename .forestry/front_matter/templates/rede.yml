@@ -6,14 +6,15 @@ fields:
   type: field_group_list
   fields:
   - name: name_association
-    type: textarea
-    default: ''
+    type: text
     config:
       required: false
-      wysiwyg: true
-      schema:
-        format: html-blocks
     label: Nome Associação
+  - name: link_association
+    type: text
+    config:
+      required: false
+    label: Link Associação
   - name: description_association
     type: textarea
     default: ''
@@ -32,14 +33,15 @@ fields:
   type: field_group_list
   fields:
   - name: nome_associacao
-    type: textarea
-    default: ''
+    type: text
     config:
       required: false
-      wysiwyg: true
-      schema:
-        format: html-blocks
     label: Nome Associação
+  - name: link_associacao
+    type: text
+    config:
+      required: false
+    label: Link Associação
   - name: descricao_associacao
     type: textarea
     default: ''
