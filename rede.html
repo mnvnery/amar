@@ -1,27 +1,5 @@
 ---
 layout: default
-corpo: <p>NACIONAL</p><p><a href="http://www.amplos.pt/">Associação Amplos</a> - Associação
-  de Mães e Pais pela Liberdade de Orientação Sexual e Identidade de Género</p><p><a
-  href="http://www.associacaoplanoi.org/">Associação Plano I</a> – Promoção da Igualdade
-  e inclusão</p><p><a href="https://ilga-portugal.pt/">Associação Ilga – Portugal</a>
-  – Intervenção Lésbica, Gay, Bissexual, Trans e Intersexo</p><p><a href="https://www.casa-qui.pt/">Casa
-  QUI</a> – Associação de Solidariedade Social</p><p><a href="https://www.rea.pt/">Rede
-  ex-aequo</a> – Associação de jovens LGBTI e simpatizantes</p><p><a href="https://www.facebook.com/pathmarchacoimbra">PATH</a>
-  - Plataforma Anti Transfobia e Homofobia de Coimbra</p><p>REGIONAL</p><p><a href="https://www.facebook.com/AsCoresDosAcores/about/?ref=page_internal">As
-  Cores dos Açores</a> - Grupo informal de activismo LGBTQ</p><p><a href="http://www.umaracores.org/"
-  title="">Umar - Açores</a> - Associação para a Igualdade e Direitos das Mulheres</p><p><a
-  href="http://www.novodiacipa.org/contactos/">CIPA</a> - Centro de Informação, Promoção
-  e Acompanhamento de Políticas de Igualdade</p><p><a href="http://solidariedarte.pt/">Solidaried'arte
-  Açores</a> - Associação de Educação e Integração pela Arte e Desenvolvimento Cultural
-  Social e Local</p><p>Comissariado dos Açores para a Infância - rede de respostas
-  sociais dirigidas ao apoio das crianças e jovens.</p><p><a href="https://www.azores.gov.pt/Gra/srecc-drj/conteudos/livres/AssociacaoAlternativa.htm">Alternativa</a>
-  - Associação Contra as Dependências</p><p><a href="http://www.kairos-acores.pt/kairos.php">Kairós</a>
-  - Cooperativa Incubação Iniciativas Economia Solidária</p><p><a href="http://www.aipa-azores.com/clubemprego/ofertas.php?pag=3&amp;todos=sim">AIPA</a>
-  - Associação dos Imigrantes nos Açores</p><p><a href="http://www.arrisca.pt/">Arrisca</a>
-  - Associação Regional de Reabilitação e Integração Sociocultural dos Açores</p><p><a
-  href="https://apav.pt/apav_v3/index.php/pt/1953-gabinete-de-apoio-a-vitima-de-ponta-delgada-da-apav-15-anos-ao-servico-da-comunidade">APAV</a>
-  - Gabinete de Apoio à Vítima de Ponta Delgada</p><p><a href="https://www.cresacor.pt/pt/">Cresaçor</a>
-  - Cooperativa Regional de Economia Solidária</p>
 nacional:
 - name_association: Associação Amplos
   description_association: "<p>Associação de Mães e Pais pela Liberdade de Orientação
@@ -35,7 +13,7 @@ nacional:
   description_association: "<p>Intervenção Lésbica, Gay, Bissexual, Trans e Intersexo</p>"
 - name_association: 'Casa QUI '
   link_association: https://www.casa-qui.pt/
-  description_association: "<p>Associação de Solidariedade Social<br><br></p>"
+  description_association: "<p>Associação de Solidariedade Social</p>"
 - name_association: Rede ex-aequo
   link_association: https://www.rea.pt/
   description_association: "<p>Associação de jovens LGBTI e simpatizantes</p>"
@@ -105,7 +83,17 @@ regional:
         </ul>
     </div>
     <div class="content">
-        {{ page.corpo }}
+      <p class="nome-bio">NACIONAL</p>
+        {% for item in page.nacional %}
+          <a href="{{ item.link_association }}" class="rede">{{ item.name_association }}</a><br>
+          {{ item.description_association }}
+        {% endfor %}
+        <br>
+        <p class="nome-bio">REGIONAL</p>
+        {% for item in page.regional %}
+          <a href="{{ item.link_associacao }}" class="rede">{{ item.nome_associacao }}</a><br>
+          {{ item.descricao_associacao }}
+        {% endfor %}
         <br style="margin-bottom: 20vh;">
     </div>
 </div>
