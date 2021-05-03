@@ -1,4 +1,22 @@
 ---
 label: Serviços
 hide_body: true
-fields: []
+fields:
+- name: servicos
+  type: field_group_list
+  fields:
+  - name: titulo
+    type: text
+    config:
+      required: false
+    label: Titulo
+  - name: descricao
+    type: text
+    config:
+      required: false
+    label: Descrição
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Serviços
