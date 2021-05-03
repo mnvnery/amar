@@ -1,0 +1,30 @@
+---
+label: Contactos
+hide_body: true
+fields:
+- name: morada
+  type: text
+  config:
+    required: false
+  label: Morada
+- name: telefone
+  type: text
+  config:
+    required: false
+  label: Telefone
+- name: email
+  type: text
+  config:
+    required: false
+  label: Email
+- name: redes_sociais
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Redes Sociais
+pages:
+- contactos.html
