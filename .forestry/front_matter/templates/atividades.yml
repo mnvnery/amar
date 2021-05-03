@@ -32,3 +32,5 @@ fields:
     max: 
     labelField: 
   label: Atividades
+pages:
+- atividades.html

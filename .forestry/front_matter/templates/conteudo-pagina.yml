@@ -12,7 +12,6 @@ fields:
       format: html-blocks
   label: Corpo
 pages:
-- atividades.html
 - comunicacao.html
 - contactos.html
 - index.html
