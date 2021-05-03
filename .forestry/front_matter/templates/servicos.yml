@@ -20,3 +20,5 @@ fields:
     max: 
     labelField: 
   label: Serviços
+pages:
+- servicos.html
