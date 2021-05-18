@@ -12,6 +12,11 @@ fields:
   config:
     required: false
   label: Telefone
+- name: horario
+  type: text
+  config:
+    required: false
+  label: Horário
 - name: email
   type: text
   config:
