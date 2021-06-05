@@ -11,16 +11,16 @@ fields:
       required: false
     label: Plataforma
     description: A entidade que publicou o artigo.
-  - name: link
-    type: text
-    config:
-      required: false
-    label: Link
   - name: title
     type: text
     config:
       required: false
     label: Título/Descrição
+  - name: link
+    type: text
+    config:
+      required: false
+    label: Link
   config:
     min: 
     max: 
