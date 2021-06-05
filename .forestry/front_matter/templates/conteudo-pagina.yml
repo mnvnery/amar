@@ -12,5 +12,4 @@ fields:
       format: html-blocks
   label: Corpo
 pages:
-- comunicacao.html
 - index.html

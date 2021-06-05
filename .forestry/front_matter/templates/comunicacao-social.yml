@@ -26,3 +26,5 @@ fields:
     max: 
     labelField: 
   label: Artigos
+pages:
+- comunicacao.html
