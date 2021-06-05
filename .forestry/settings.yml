@@ -16,15 +16,15 @@ sections:
   path: servicos.html
   label: Serviços
 - type: document
+  path: comunicacao.html
+  label: Comunicação Social
+  read_only: true
+- type: document
   path: atividades.html
   label: Atividades
 - type: document
   path: rede.html
   label: Rede
-- type: document
-  path: comunicacao.html
-  label: Comunicação Social
-  match: "**/*"
 - type: document
   path: contactos.html
   label: Contactos
