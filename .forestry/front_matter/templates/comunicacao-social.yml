@@ -1,4 +1,28 @@
 ---
 label: Comunicação Social
 hide_body: true
-fields: []
+fields:
+- name: artigos
+  type: field_group_list
+  fields:
+  - name: platform
+    type: text
+    config:
+      required: false
+    label: Plataforma
+    description: A entidade que publicou o artigo.
+  - name: link
+    type: text
+    config:
+      required: false
+    label: Link
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Título/Descrição
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Artigos
