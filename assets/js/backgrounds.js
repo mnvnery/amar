@@ -20,3 +20,8 @@ $(".menu-btn").click(function() {
     $(".more").toggle();
     $(".content").toggle();
 });
+
+
+$(document).ready(function(){
+    $('.content a').attr('target', '_blank');
+});

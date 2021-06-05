@@ -1,6 +1,5 @@
 ---
 layout: default
-corpo: "<p>teste</p>"
 artigos:
 - platform: Dezanove
   description: "<p>(A)MAR: Açores pela Diversidade, o primeiro centro de apoio à população
@@ -54,7 +53,10 @@ artigos:
         </ul>
     </div>
     <div class="content">
-        {{ page.corpo }}
+        {% for item in page.artigos %}
+        <a href="{{ item.link }}" class="rede">{{ item.platform }}</a><br>
+        {{ item.description }}
+        {% endfor %}
         <br style="margin-bottom: 20vh;">
     </div>
 </div>
