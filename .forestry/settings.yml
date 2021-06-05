@@ -7,6 +7,9 @@ sections:
 - type: heading
   label: Páginas
 - type: document
+  path: comunicacao.html
+  label: Comunicação Social
+- type: document
   path: index.html
   label: Sobre
 - type: document
@@ -21,9 +24,6 @@ sections:
 - type: document
   path: rede.html
   label: Rede
-- type: document
-  path: comunicacao.html
-  label: Comunicação Social
 - type: document
   path: contactos.html
   label: Contactos
