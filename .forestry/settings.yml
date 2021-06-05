@@ -24,7 +24,6 @@ sections:
 - type: document
   path: comunicacao.html
   label: Comunicação Social
-  read_only: false
 - type: document
   path: contactos.html
   label: Contactos
